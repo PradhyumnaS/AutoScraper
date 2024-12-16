@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
-    "name": "Auto Web Scraper",
+    "name": "AutoScraper",
     "version": "1.0",
-    "description": "Automatically scrape web data with a simple click",
+    "description": "Automatically Scrape Web Data with a Single Click",
     "permissions": [
       "activeTab",
       "downloads",
