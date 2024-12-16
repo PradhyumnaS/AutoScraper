@@ -1,25 +1,84 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Auto Web Scraper</title>
+  <title>AutoScraper</title>
   <style>
+    /* General Styles */
     body {
-      width: 300px;
-      padding: 10px;
-      font-family: Arial, sans-serif;
+      width: 320px;
+      padding: 20px;
+      font-family: 'Roboto', Arial, sans-serif;
+      margin: 0;
+      background: #f5f5dc; /* Beige color */
+      color: #5a4636; /* Brown text for sophistication */
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
     }
+
+    h1 {
+      text-align: center;
+      font-size: 1.6em;
+      margin-bottom: 10px;
+      color: #4a3b2a;
+      font-weight: 500;
+    }
+
+
+    h2 {
+      text-align: center;
+      font-size: 1.2em;
+      margin-bottom: 20px;
+      color: #4a3b2a;
+      font-weight: 500;
+    }
+
+    /* Button Styles */
     button {
       width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      font-size: 1em;
+      font-weight: 600;
+      color: #fff;
+      background: #8b5e34; /* Sophisticated brown */
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+      transition: background 0.3s, transform 0.2s, box-shadow 0.2s;
+    }
+
+    button:hover {
+      background: #704923; /* Darker brown for hover */
+      transform: translateY(-2px);
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+    }
+
+    button:active {
+      background: #5a381b; /* Even darker brown for active */
+      transform: translateY(1px);
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Status Section */
+    #status {
+      margin-top: 20px;
       padding: 10px;
-      margin: 5px 0;
+      font-size: 0.9em;
+      background: #f9f5e6; /* Light beige for contrast */
+      color: #5a4636;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     }
   </style>
 </head>
 <body>
-  <h2>Auto Web Scraper</h2>
-  <button id="startScraping">Start Scraping Mode</button>
+  <h1><b>AutoScraper</b></h1>
+  <h2>Simplifying Web Scraping</h2>
+  <button id="startScraping">Activate Scraping Mode</button>
   <button id="exportData">Export Scraped Data</button>
-  <div id="status"></div>
+  <div id="status"><b>Status updates will appear here...</b></div>
 
   <script src="popup.js"></script>
 </body>
