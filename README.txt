@@ -1,4 +1,4 @@
-Below code formats table correctly but doesnt scrape text - 
+Below code formats table correctly but doesnt scrape other elements - 
 
 let isScrapingMode = false;
 let scrapedData = [];
