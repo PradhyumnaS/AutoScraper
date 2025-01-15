@@ -1,4 +1,4 @@
-# AutoScraper 
+AutoScraper Chrome Plugin
 
 Interactive Element Scraping: Allows users to click on any webpage element, automatically detecting and extracting the content for storage in a CSV file using dynamic DOM manipulation.
 
